@@ -1,15 +1,36 @@
-# Resume Matcher (Gradio)
+# Resume Screener 🔍  
 
-This tool compares resumes against job descriptions and returns a similarity score.
+An AI-powered web application that matches resumes to job descriptions using NLP.  
+Deployed on **Vercel** with a clean, interactive frontend and a Python backend.  
 
-## How to Use
+---
 
-1. Upload a job description (PDF or TXT).
-2. Upload a resume (PDF only).
-3. Set the desired similarity threshold.
-4. Get the match result and score!
+## 📌 Overview  
+Recruiters spend hours manually filtering resumes. This tool automates the process by:  
+- Parsing resumes and job descriptions.  
+- Calculating a **match score** using NLP.  
+- Highlighting **missing skills**.  
+- Ranking multiple resumes against a single job description.  
 
-## Install dependencies
+---
 
-```bash
-pip install -r requirements.txt
+## 🚀 Features  
+- 📂 Upload **Job Description (PDF/Text)** and **Resume(s) (PDF)**  
+- 📊 Match Score (%) with detailed breakdown  
+- 🧠 **Skill Gap Analysis** – missing & matched keywords  
+- 📈 Visualization (bar & pie charts)  
+- 🏆 Multi-resume ranking  
+- 📑 Export results as a **PDF report**  
+
+---
+
+## 🛠️ Tech Stack  
+- **Frontend**: Next.js + TailwindCSS (hosted on Vercel)  
+- **Backend**: Python (Flask/FastAPI) + Hugging Face Transformers  
+- **NLP Models**: Sentence Transformers (`all-MiniLM-L6-v2`)  
+- **Data Handling**: PyPDF2, Pandas, NumPy, Matplotlib  
+- **Deployment**: Vercel (Frontend) + Render (Backend)  
+
+---
+
+## 📂 Project Structure  
