@@ -92,23 +92,4 @@ Alfeen K Afsal
 
 💼 LinkedIn: [linkedin.com/in/yourprofile]
 
-🐙 GitHub: [github.com/yourusername]
-
-yaml
-Copy code
-
----
-
-✅ This structure + README makes your repo **portfolio-ready**.  
-Next step: we’ll prepare your **backend `requirements.txt` + frontend `package.json` boilerplate**, so you can deploy right away.  
-
-👉 Do you want me to generate the **starter code (backend + frontend skeleton)** for your Resume Screener, so you just need to plug in your existing logic?
-
-
-
-
-
-
-
-Ask ChatGPT
-You
+🐙 GitHub: [github.com/yourusername]
